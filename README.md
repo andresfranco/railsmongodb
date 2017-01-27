@@ -1,24 +1,7 @@
-# README
+# SKELETON FOR RUBY ON RAILS AND MONGODB PROJECTS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Clone repository
+2. run : bundle install
+3. configure your database name in : /config/mongoid.yml
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. Run migrations: rails db:migrate RAILS_ENV=development
